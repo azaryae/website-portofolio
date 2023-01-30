@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+
+
+.home1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+.pertama {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.p1 {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 8px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.az1 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Notable', sans-serif;
+}
+.p3 {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 8px grey;
+}
+
+.az1 {
+    justify-items: flex-end
+}
+
+.row2 {
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#aboutme{
+    height: 100vh;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.am1{
+    font-size: 20px;
+    color: white;
+}
+
+
+.am2 {
+    font-size: 20px;
+    color: black;
+    font-family: 'Flow Circular', cursive;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.am0 {
+    justify-content: space-between;
+}
+
+.am5 {
+    color: white;
+}
+
+.glry {
+    background-image: linear-gradient(black, white);
+    color: white;
+}
+
+.cm{
+    background-color: black;
+    color: white;
+}
+
+.em ul li{
+    color: white;
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0px;
+}
+.em ul li i{
+    color: white;
+    list-style-type: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: rem;
+}
+
+footer .social{
+    padding: 1rem 0;
+}
+
+footer div a{
+    color: white;
+}
